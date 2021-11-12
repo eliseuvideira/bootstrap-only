@@ -13,6 +13,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
     />
+    <style>
+      body {
+        padding-top: 56px;
+      }
+
+      nav {
+        height: 56px;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- -->
@@ -57,7 +80,43 @@
     <!-- -->
     <!-- Hero -->
     <!-- -->
-    <div id="hero"></div>
+    <div id="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"
+              width="550"
+              height="400"
+              xmlns="http://www.w3.org/2000/svg"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">550x400</text>
+            </svg>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Lorem ipsum dolor sit amet
+            </h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, labore, consectetur temporibus, perspiciatis maxime
+              magnam sit corrupti nihil aut maiores recusandae voluptatum!
+            </p>
+            <div class="d-grid d-md-flex">
+              <a
+                href="#announcement"
+                class="btn btn-primary btn-lg px-4 me-md-2"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- -->
     <!-- Announcement -->
