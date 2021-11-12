@@ -272,13 +272,9 @@
     <!-- -->
     <div id="about" class="bg-light">
       <div class="container p-5 text-center">
-        <div class="row px-5 pt-3">
-          <div class="col-12 pb-3">
-            <h2 class="display-5 fw-bold lh-1 mb-3 border-bottom p-3 pt-5">
-              About Us
-            </h2>
-          </div>
-        </div>
+        <h2 class="display-5 fw-bold lh-1 mb-3 border-bottom p-3 pt-5">
+          About Us
+        </h2>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="card border-0 bg-light">
@@ -288,7 +284,7 @@
                   alt="Lucy Hunt"
                   class="img-fluid rounded-circle"
                 />
-                <h5 class="card-title mt-2">Lucy Hunt</h5>
+                <p class="h5 card-title mt-2 fw-bold">Lucy Hunt</p>
                 <p class="card-text fw-bold">Founder</p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -306,7 +302,7 @@
                   alt="Kristina Owens"
                   class="img-fluid rounded-circle"
                 />
-                <h5 class="card-title mt-2">Kristina Owens</h5>
+                <p class="h5 card-title mt-2 fw-bold">Kristina Owens</p>
                 <p class="card-text fw-bold">Founder</p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -325,7 +321,7 @@
                   alt="Walter Byrd"
                   class="img-fluid rounded-circle"
                 />
-                <h5 class="card-title mt-2">Walter Byrd</h5>
+                <p class="h5 card-title mt-2 fw-bold">Walter Byrd</p>
                 <p class="card-text fw-bold">Graphics Designer</p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -343,7 +339,7 @@
                   alt="Bryan Gray"
                   class="img-fluid rounded-circle"
                 />
-                <h5 class="card-title mt-2">Bryan Gray</h5>
+                <p class="h5 card-title mt-2 fw-bold">Bryan Gray</p>
                 <p class="card-text fw-bold">Developer</p>
                 <p>
                   Nam molestias quos unde officia similique cum, dolorum, eos
@@ -362,7 +358,7 @@
                   alt="Brittany Phillips"
                   class="img-fluid rounded-circle"
                 />
-                <h5 class="card-title mt-2">Brittany Phillips</h5>
+                <p class="h5 card-title mt-2 fw-bold">Brittany Phillips</p>
                 <p class="card-text fw-bold">Developer</p>
                 <p>
                   Nobis, impedit perferendis tempora, hic amet sunt, illo eos
@@ -383,7 +379,7 @@
       <div class="container">
         <div class="row text-center py-5">
           <div class="col-12 col-sm-6 col-md-4 pt-4">
-            <h5>Logo</h5>
+            <p class="h4 fw-bold lh-1">Logo</p>
             <small class="text-muted">Follow us at social media</small>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
@@ -393,6 +389,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="rounded-pill text-dark"
+                  tabindex="-1"
                 >
                   <i class="bi bi-github"> </i>
                 </a>
@@ -404,6 +401,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="rounded-pill text-dark"
+                  tabindex="-1"
                 >
                   <i class="bi bi-discord"></i>
                 </a>
@@ -415,6 +413,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="rounded-pill text-dark"
+                  tabindex="-1"
                 >
                   <i class="bi bi-twitter"></i>
                 </a>
@@ -426,6 +425,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   class="rounded-pill text-dark"
+                  tabindex="-1"
                 >
                   <i class="bi bi-facebook"> </i
                 ></a>
@@ -433,13 +433,13 @@
             </ul>
           </div>
           <div class="col-12 col-sm-6 col-md-4 pt-4">
-            <h5>Location</h5>
+            <p class="h4 fw-bold lh-1">Location</p>
             <small class="text-muted d-block">
               4423 Green Street<br />Nashville, TN 37201
             </small>
           </div>
           <div class="col-12 col-sm-6 col-md-4 pt-4">
-            <h5>Contact</h5>
+            <p class="h4 fw-bold lh-1">Contact</p>
             <small class="text-muted">+1 615-534-1283</small>
             <br />
             <small class="text-muted">aaronvhansen@dayrep.com</small>
@@ -450,12 +450,12 @@
             <small class="text-muted">&copy; 2021</small>
             <ul class="list-inline m-0">
               <li class="list-inline-item">
-                <a href="#" class="text-decoration-none">
+                <a href="#" class="text-decoration-none" tabindex="-1">
                   <small class="text-muted"> Terms of Use </small>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-decoration-none">
+                <a href="#" class="text-decoration-none" tabindex="-1">
                   <small class="text-muted"> Privacy Policy </small>
                 </a>
               </li>
@@ -469,7 +469,12 @@
     <!-- Back To Top Button -->
     <!-- -->
 
-    <button id="back-to-top" type="button" class="btn btn-secondary">
+    <button
+      id="back-to-top"
+      type="button"
+      class="btn btn-secondary"
+      tabindex="-1"
+    >
       <i class="bi bi-chevron-up"></i>
     </button>
 
